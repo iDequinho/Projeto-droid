@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+
+
+header{
+    background-image: linear-gradient(to top, rgb(1, 51, 1), rgb(12, 243, 12));
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 0px;
+    
+    height: 120px
+}
+header > p {
+    text-align: center;
+
+}
+    
+nav{
+    text-align: left;
+    padding: 5px;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+nav > a:hover{
+    background-color: rgba(255, 255, 255, 0.137);
+}
+body{
+    background-color: rgba(75, 209, 75, 0.651);
+}
+main{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 1px;
+    text-align: justify;
+    
+}
+h2{
+    font-family: 'idroid',Helvetica, sans-serif;
+    color: rgb(2, 58, 2);
+}
+h3{
+    font-family: 'idroid',Helvetica, sans-serif;
+    color: rgb(5, 136, 5);
+    background-image: linear-gradient(to right, rgba(4, 235, 4, 0.404),white );
+    margin: 7px;
+    padding: 3px 3px 3px 10px ; 
+}
+footer{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 17px 0px 5px 0px;
+    border: 30px
+}
+h4{
+    background-color: rgba(42, 173, 42, 0.877);
+    color: white;
+    padding: 10px;
+    text-align: left;
+    width: 750px;
+    border-radius: 5px 5px 0px 0px;
+    margin: 0px 15px 0px 15px;
+    border: 10 0px 0px 0px;
+}
+section{
+    background-color: rgba(91, 167, 91, 0.418);
+    width: 750px;
+    margin: 0px 15px 0px 15px;
+    padding: 10px;
+    border: 50px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+strong{
+    color: green;
+}
+p{
+    text-align: justify;
+}
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format(opentype);
+    font-weight: normal;
+}
+
+.foto{
+    text-align: center;
+}
+.video{
+    text-align: center;
+    background-color: rgba(9, 48, 9, 0.74);
+    padding: 17px 0px 14px 0px;
+    margin: 0px;
+    width: 800px;
+}
+.fim{
+    background-color: rgba(9, 48, 9, 0.74);
+    text-align: center;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    height: 24px;
+}
